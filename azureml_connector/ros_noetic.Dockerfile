@@ -37,6 +37,8 @@ RUN pip install --no-cache-dir empy
 RUN pip install --no-cache-dir vcstool
 RUN pip install --no-cache-dir setproctitle
 RUN pip install --no-cache-dir defusedxml
+RUN pip install --no-cache-dir pycryptodome
+
 
 RUN conda install -y -c conda-forge x264='1!152.20180717' ffmpeg=4.0.2
 RUN conda install -c anaconda opencv

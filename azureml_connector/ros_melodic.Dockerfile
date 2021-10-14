@@ -62,6 +62,7 @@ RUN conda install -y conda=4.7.12 python=3.7 && conda clean -ay && \
     sklearn \
     future==0.17.1 \
     torch==1.4.0 \
+    pycryptodome \
     empy \
     vcstool \
     setproctitle && \
